@@ -1,0 +1,31 @@
+#create {
+  border: none;
+  background-color: transparent; 
+  color: white;
+	margin-bottom: 15px;
+}
+
+#create:hover {
+  cursor: pointer;
+	text-decoration: underline;
+}
+
+#list {
+  border-radius: 5px;
+}
+
+#title {
+  width: 100%;
+  height: calc(5vh);
+}
+
+.add-button::before {
+  content: "\002B"; /* Вставляем символ "+" (Unicode) в качестве иконки */
+  font-size: 20px; /* Размер иконки */
+  margin-right: 5px; /* Отступ между иконкой и текстом кнопки */
+}
+
+h1{
+	margin-bottom: 10px;
+}
+
